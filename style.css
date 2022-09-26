@@ -8,16 +8,30 @@
 header{
     position: fixed;
     background-color: #fff;
-    display: inline;
-    vertical-align: middle;
-    margin: 10px 10px;
+    display: flex;
 }
 
-header div{
-    justify-content: center;
-    align-self: center;
+.box-header{
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+span{
+    margin: 0px 15px;
+}
+
+.dropbox{
+    display: inline-block;
 }
 
 i{
     color: blue;
+}
+
+.inizia{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 20px;
 }
