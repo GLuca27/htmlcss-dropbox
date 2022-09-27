@@ -29,7 +29,7 @@ i{
     color: blue;
 }
 
-.inizia{
+.bottone1{
     background-color: blue;
     color: #fff;
     border: none;
@@ -47,17 +47,36 @@ main{
 .conteiner-big{
     width: 60%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 h1{
     font-size: 40px;
 }
 
-.sezione-acquisti{
+.sezione-acquisti1{
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.sezione-acquisti2{
+    width: 40%;
+}
+
+.conteiner-small{
     display: flex;
 }
 
 .img1{
-    height: 400px;
-    width: 650px;
+    height: 450px;
+    width: 800px;
 }
+
+.bottone2{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    width: 200px;
+    height: 30px;
+}
+
