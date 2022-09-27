@@ -7,18 +7,17 @@
 
 header{
     position: fixed;
-    background-color: #fff;
+    background-color: blue;
     display: flex;
-}
-
-.box-header1{
-    display: flex;
+    width: 100%;
+    height: 60px;
     justify-content: space-between;
 }
 
-.box-header2{
+.box-header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .dropbox{
@@ -39,4 +38,9 @@ i{
 
 main{
     background-color:cadetblue;
+    width: 100%;
+}
+
+.conteiner{
+    
 }
