@@ -40,7 +40,6 @@ i{
 main{
     background-color:cadetblue;
     width: 100%;
-    display: flex;
     justify-content: center;
 }
 
@@ -80,3 +79,16 @@ h1{
     height: 30px;
 }
 
+.conteiner-colonne{
+    background-color: #fff;
+    width: 100%;
+    justify-content: center;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.colonne{
+    width: 30%;
+}
