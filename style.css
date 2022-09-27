@@ -11,13 +11,14 @@ header{
     display: flex;
 }
 
-.box-header{
-    vertical-align: middle;
+.box-header1{
+    display: flex;
     justify-content: space-between;
 }
 
-span{
-    margin: 0px 15px;
+.box-header2{
+    display: flex;
+    justify-content: space-between;
 }
 
 .dropbox{
@@ -34,4 +35,8 @@ i{
     border: none;
     width: 60px;
     height: 20px;
+}
+
+main{
+    background-color:cadetblue;
 }
