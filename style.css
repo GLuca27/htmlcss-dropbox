@@ -6,8 +6,8 @@
 }
 
 header{
-    position: fixed;
-    background-color: blue;
+   
+    background-color: #fff;
     display: flex;
     width: 100%;
     height: 60px;
@@ -18,6 +18,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 35%;
 }
 
 .dropbox{
@@ -39,8 +40,24 @@ i{
 main{
     background-color:cadetblue;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.conteiner{
-    
+.conteiner-big{
+    width: 60%;
+    display: flex;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.sezione-acquisti{
+    display: flex;
+}
+
+.img1{
+    height: 400px;
+    width: 650px;
 }
